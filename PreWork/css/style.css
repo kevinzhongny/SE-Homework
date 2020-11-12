@@ -1,0 +1,78 @@
+
+body{
+    background-color: #9aacb8;
+    margin: 0px;
+    padding: 0 0 0 0;
+}
+a:link{
+    color:  blue;
+    text-decoration:  none;
+}
+a:visited{
+    color:  blue;
+    text-decoration:  none;
+}
+h1{
+    color:  #dde2e3;
+    font-weight:  800px;
+    font-size:  36pt;
+    text-align: center;
+    text-decoration:  underline;
+}
+#cursive{
+    font-style: italic;
+    font-weight:  lighter;
+    font-family:  "Apple Chancery", cursive;
+    font-size:  12pt;
+    color:pink;
+}
+.fluff{
+    color:  #3c455c;
+    font-size:  12pt;
+    width:  100%;
+    font-family:  'Sansita Swashed', cursive;
+}
+#subheader{
+    color:  #dde2e3;
+    text-decoration:  underline;
+}
+#header{
+    position: static;
+    background-color: #955251;
+}
+#navbar{
+    background-color: #009b77;
+}
+#div3{
+    -webkit-flex: 1;
+    flex:50%;
+    background-color: #efc050;
+}
+#div4{
+    -webkit-flex: 2;
+    flex: 50%;
+    background-color: #98B4D4;
+}
+#container{
+    padding: 0 0 0 0;
+    display: -webkit-flex;
+    display: flex;
+}
+#header, #navbar, #div3, #div4{
+    border: solid;
+    padding-left:5px;
+}
+form{
+    position: relative;
+    padding:  5px;
+    margin: 0 auto;
+    background-color: lightgreen;
+    border-style: solid;
+}
+input[type=button]{
+    text-align:  center;
+    padding:  5px;
+    color:  black;
+    display:  block;
+    margin: 0 auto;
+}
