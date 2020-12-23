@@ -1,0 +1,73 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#numCount {
+    font-size: 30px;
+}
+
+#sentAnalysis {
+    text-align: center;
+    line-height: 40px;
+}
+
+#sidebar {
+    grid-area: sidebar;
+    display: grid;
+    background-color: lightgrey;
+    text-align: center;
+    line-height: 30px;
+}
+
+#sidebartext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#reviews {
+    grid-area: reviews;
+    padding: 5px;
+    background-color: lightgrey;
+}
+
+#rating {
+    grid-area: rating;
+    padding: 5px;
+    background-color: lightgrey;
+}
+
+#analysis {
+    grid-area: analysis;
+    padding: 5px;
+    background-color: lightgrey;
+}
+
+#visitors {
+    grid-area: visitors;
+    padding: 5px;
+    background-color: lightgrey;
+}
+
+#visitorGraph {
+    background-color: darkgrey;
+    margin: 10px 10px;
+    height: 175px;
+}
+
+#container {
+    display: grid;
+    width: 700px;
+    margin: auto;
+    background-color: grey;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+    padding: 10px;
+    gap: 10px;
+    grid-template-areas:
+        "sidebar reviews rating analysis"
+        "sidebar reviews rating analysis"
+        "sidebar visitors visitors visitors"
+        "sidebar visitors visitors visitors"
+        "sidebar visitors visitors visitors";
+    }
